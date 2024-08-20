@@ -40,7 +40,7 @@ namespace CoffeeBooster.Services
       {
         lock (_lockObject)
         {
-          isActive = value;
+          _isActive = value;
         }
       }
     }

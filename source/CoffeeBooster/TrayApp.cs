@@ -55,6 +55,8 @@ namespace CoffeeBooster
       _trayIcon.Text = $"CoffeeBooster: {(_isActive ? "Active" : "Idle")}";
       var menuItem = _trayIcon.ContextMenu.MenuItems[0];
       menuItem.Text = _isActive ? "Disable" : "Enable";
+
+      _awakeService.isActive = _isActive;
     }
 
     private void Exit(object sender, EventArgs e)
