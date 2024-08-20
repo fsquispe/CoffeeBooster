@@ -6,27 +6,8 @@
 
 - **Icono en la bandeja del sistema:** CoffeeBooster se ejecuta silenciosamente en la bandeja del sistema, mostrando una taza de café.
 - **Estado activo/inactivo:** El icono cambia según el estado de la aplicación:
-  - **Taza de café caliente:** Indica que la aplicación está activa y mantiene el sistema despierto.
-  - **Taza de café fría:** Indica que la aplicación está inactiva.
 - **Doble clic para alternar estados:** Puedes alternar entre los estados activo e inactivo haciendo doble clic en el icono de la bandeja.
 - **Menú contextual:** Haz clic derecho en el icono de la bandeja para acceder a opciones como activar/desactivar la aplicación o salir de ella.
-
-## Instalación
-
-1. **Descarga el código fuente** o clona el repositorio:
-
-   ```bash
-   git clone https://github.com/tu-usuario/coffee-booster.git
-   ```
-
-2. **Compila la aplicación** utilizando Visual Studio u otra herramienta compatible.
-
-3. **Ejecuta CoffeeBooster**. El icono aparecerá en la bandeja del sistema.
-
-## Uso
-
-- **Doble clic en el icono de la bandeja** para activar o desactivar CoffeeBooster.
-- **Haz clic derecho en el icono** para acceder al menú contextual, donde puedes salir de la aplicación.
 
 ## Contribuciones
 
@@ -38,8 +19,4 @@ Este proyecto se distribuye bajo la licencia [GNU General Public License v3.0](h
 
 ## Créditos
 
-Desarrollado por [Tu Nombre o Alias].
-
----
-
-¡Gracias por usar CoffeeBooster! Mantén tu computadora siempre activa.
+Desarrollado por [fsquipe](https://github.com/fsquispe/).
