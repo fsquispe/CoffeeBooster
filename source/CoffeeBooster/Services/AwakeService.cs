@@ -18,7 +18,7 @@ namespace CoffeeBooster.Services
     private readonly object _lockObject = new object();
     private bool _isActive;
 
-    public AwakeService(bool isActive = true)
+    public AwakeService(bool isActive)
     {
       _workerThread = new Thread(WorkerLoop);
       _isActive = isActive;

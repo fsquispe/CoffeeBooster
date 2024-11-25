@@ -18,7 +18,7 @@ namespace CoffeeBooster
       Application.SetCompatibleTextRenderingDefault(false);
 
       UtilService utilService = new UtilService();
-      AwakeService awakeService = new AwakeService();
+      AwakeService awakeService = new AwakeService(false);
       Application.Run(new TrayApp(utilService, awakeService));
     }
   }
